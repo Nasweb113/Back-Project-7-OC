@@ -19,4 +19,12 @@ This repo was tested with an online PlanetScale MySQL database
 How to use Prisma to interact with the DB
 The db schema is inside the schema.prisma
 
-If you want to change it, you have to run npx prisma db push
+DB - If you want to change it, you have to run npx prisma db push
+
+.env contents for testing
+SECRET = secretpassword
+PORT = 3002
+
+DATABASE_URL='mysql://kv1838iiv2ph4rq3pjiw:pscale_pw_Tr476mE0uj9p0rKyWJlE6ygjsgjtQYZNyMaU9moC5ff@aws.connect.psdb.cloud/groupomania?sslaccept=strict'
+
+database link: https://app.planetscale.com/neil-es
